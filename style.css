@@ -478,28 +478,27 @@ width: 100%;
                background-size: 50%;
             }
 
+            .helper-open {
+              position: fixed;
+              right: 50px;
+              bottom: 50px;
 
-  .helper-open {
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
+              z-index: -1;
+            }
+            .helper {
+              position: fixed;
+              height: 100px;
+              width: 100px;
+              right: 50px;
+              bottom: 50px;
+              border: 2px solid pink;
+        
 
-    z-index: -1;
-  }
-  .helper {
-    position: fixed;
-    height: 100px;
-    width: 100px;
-    right: 50px;
-    bottom: 50px;
-    border: 2px solid black;
-
-    z-index: -1;
-  }
-  .on-top {
-    z-index: 1;
-  }
-
+              z-index: -1;
+            }
+            .on-top {
+              z-index: 1;
+            }
 
 @media (max-width: 600px){
   .responsive {
